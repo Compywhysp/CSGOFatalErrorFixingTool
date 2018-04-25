@@ -1,0 +1,29 @@
+Copy everything under this line
+---
+
+title Steam Restarter Tool (By Compywhysp)
+color f
+echo Steam Restarter Tool (By Compywhysp)
+PING localhost -n 5 >NUL
+echo Process Starting.
+PING localhost -n 1 >NUL
+echo Process Starting..
+PING localhost -n 1 >NUL
+echo Process Starting...
+PING localhost -n 1 >NUL
+color a
+taskkill /f /im Steam.exe
+PING localhost -n 2 >NUL
+taskkill /f /im steamwebhelper.exe
+PING localhost -n 2 >NUL
+taskkill /f /im SteamService.exe
+PING localhost -n 2 >NUL
+cd\"program files (x86)"
+PING localhost -n 2 >NUL
+cd Steam
+PING localhost -n 5 >NUL
+start Steam
+PING localhost -n 3 >NUL
+exit cmd.exe
+
+Paste everything you've just copied into a cmd, press enter, wait 15 seconds, all fatal Steam errors should be fixed!
